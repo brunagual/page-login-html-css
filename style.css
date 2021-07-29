@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: url(./img/bg.jpg) center center/cover; 
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: color;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+   font-size: 30px;
+   color:#fff;
+   text-align: center;
+   margin: 20px;
+}
+
+.container {
+    width: 350px;
+    background: rgba(25, 70, 153, 0.7);
+    border-radius: 20% 0;
+
+}
+    
+
+     
+
+
+
+
