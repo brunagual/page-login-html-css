@@ -19,7 +19,7 @@ body {
 h2 {
    font-size: 32px;
    color:#fff;
-   text-shadow: 0.1em 0.1em 0.5rem rgb(23, 195, 238);
+   text-shadow: 0.1em 0.1em 0.4rem rgb(23, 195, 238);
    text-align: center;
    margin: 20px;
 }
@@ -67,10 +67,52 @@ input:focus + label {
     font-weight: bold;
 }
 
+input:not(:placeholder-shown) + label {
+    transform: translateY(-14px) scale(.9);
+    color: rgb(23, 195, 238);
+    font-weight: bold;
+}
 
+input:not(:placeholder-shown) {
+    border-bottom: 2px solid rgb(23, 195, 238);
+    box-shadow: 0 1px 0 0 rgb(23, 195, 238);
+}
 
+input::placeholder {
+    color: transparent;
+}
 
+button {
+    padding: 15px 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 0.1em 0.1em 0.4rem rgb(23, 195, 238);
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+
+button:hover {
+    background: rgb(23, 195, 238);
+}
+
+.button {
+    text-align: center;
+}
      
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: .25s ease-in-out;
+}
+
+a:hover {
+    color: rgb(23, 195, 238);
+}
 
 
 
